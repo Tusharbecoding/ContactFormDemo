@@ -1,0 +1,97 @@
+#contact{
+    background: linear-gradient(rgba(44, 44, 44, 0.336),rgba(0, 0, 0, 0.5)), url(architecture-1048092_1920.jpg) no-repeat center center/cover;
+    /* margin-top: 500px; */
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 105%;
+}
+
+#contact .phone{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#contact .phone .h-contact{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    animation: animx 7s 1;
+}
+
+#contact .details{
+    color: white;
+    margin-top: -70px;
+    margin-left: 500px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    animation: animx 7s 1;
+}
+
+#contact .details .address{
+    margin-top: 20px;
+    font-size: 1.0rem;
+    padding: 2px;
+    animation: animx 7s 1;
+}
+
+#contact .details .contact-form-opening{
+    margin-top: 20px;
+    animation: animx 7s 1;
+    font-size: 1.2rem;
+}
+
+#contact .details .contact-form{
+    margin-top: 20px;
+    display: flex;
+}
+
+#contact .details .contact-form input{
+    padding: 7px;
+    margin-top: 2px;
+    width: 300px;
+    background-color: rgba(128, 0, 128, 0.397);
+    color: white;
+    border: 2px solid white;
+}
+
+::placeholder{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+
+#contact .details .contact-form .form-group{
+    margin: 20px 0px;
+    animation: animx 7s 1;
+}
+
+.btn{
+    margin-top: 10px;
+    width: 320px;
+    padding: 7px 10px;
+    cursor: pointer;
+    background-color: rgba(128, 0, 128, 0.397);
+    border: 2px solid white;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+
+.btn:hover{
+    background-color: rgba(128, 0, 128, 0.918);
+    transition: 0.5s;
+}
+
+@keyframes animx{
+    0%{
+        color:rgba(255, 255, 255, 0.062);
+    }
+    35%{
+       color: rgba(255, 255, 255, 0.705);
+    }
+    55%{
+        color: rgb(255, 255, 255);
+    }
+}
